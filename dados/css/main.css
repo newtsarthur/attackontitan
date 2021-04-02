@@ -1,0 +1,1178 @@
+html{
+    overflow-x: hidden;
+}
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+input[type="checkbox"] {
+    display: none;
+}
+img.icone  {
+    width: 0px;
+}
+.menu-urls img.icone {
+    width: 0px;
+}
+.logo img.loguinho {
+    position: absolute;
+    top: -15px;
+}
+ul {
+    list-style:none;
+}
+.menu-principal {
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+}
+.menu-principal {
+width: 100%;
+background-color:#008080;
+height: 60px;
+}
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo{
+    float: left;
+margin-left: 11px;
+padding: 1px;
+width: 69%
+}
+.redes-sociais ul li {
+padding: 17px;
+padding-top: 4px;
+width: 1%;
+display: relative;
+float: left;
+list-style: none;
+}
+.redes-sociais img.redes {
+    height: 25px;
+}
+.redes-sociais img.redes-2 {
+    height: 30px;
+}
+.header-2 {
+background-color: #ffffff;
+width: 980px;
+padding-top: 82px;
+padding-left: 225px;
+}
+.menu-urls {
+height: 150px;
+border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+    display: inline;
+    margin-left: 80px;
+    height: 50px;
+}
+
+.menu ul li a:hover {
+    color:#008b8b;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.menu {
+width: 100%;
+height: 93px;
+float: left;
+top: 60px;
+left: 0;
+position: fixed;
+z-index: 1018;
+background-color: rgb(14, 13, 13);
+}
+.menu ul.texto {
+    padding-left: 230px;
+    padding-top: 19px;
+}
+.col-100 {
+width: 100%;
+float: left;
+position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 80px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/Seta esquerda432.png');
+    top: 35%;
+    left: 5%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 80px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/Seta\ direita432.png');
+    top: 35%;
+    right: 7%;
+}
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 550px;
+    top: 466px;
+}
+li.slick-active button {
+    background:#008080;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+.texto-destaque h1:hover {
+    color:#005a5a;
+}
+.texto-destaque h1 {
+    text-align:center!important;
+    margin: 0 auto;
+    padding:20px;
+    border: 1px solid;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #2e2e2e
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque p:hover {
+    color:#008b8b;
+}
+.texto-destaque p {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+    color:#929292;
+}
+.texto-destaque p.texto-principal {
+    text-align: center!important;
+    margin: 0 auto;
+    width: 900px;
+    padding:10px;
+    border: 2px solid;
+    border-color: transparent;
+}
+.col-3 h2:hover {
+    color:#005a5a;
+}
+.col-3 h2 {
+    color: #2e2e2e
+}
+.col-3 {
+    padding-left: 19px;
+    padding-right: 15px;
+    width: 29%;
+    height: 29%;
+    float: left;
+    position: relative;
+}
+.col-3 h2.esquerda {
+    text-align:center!important;
+    margin: 0 auto;
+    width: 290px;
+    padding:10px;
+    border: 1px solid;
+    border-color: transparent;
+}
+.col-3 h2.meio {
+    text-align:center!important;
+    margin: 0 auto;
+    width: 290px;
+    padding:10px;
+    border: 1px solid;
+    border-color: transparent;
+}
+.col-3 h2.direita {
+    text-align:center!important;
+    margin: 0 auto;
+    width: 290px;
+    padding:10px;
+    border: 1px solid;
+    border-color: transparent;
+}
+.col-3 p.teste {
+    text-align:center!important;
+    margin: 0 auto;
+    width: 290px;
+    padding:10px;
+    border: 1px solid;
+    border-color: transparent;
+}
+.bloco-texto {
+    margin-top: 2em;
+}
+.bloco-brasão {
+    margin-top: 10em;
+}
+.block-end{
+background-color:#008080;
+margin: 0 auto;
+width: 100%;
+height: 60px;
+position:absolute;
+top: 600px;
+}
+.col-4 img {
+    padding-left: 295px;
+    float: left;
+    width: 44px
+}
+.col-4 img {
+position: relative;
+}
+.col-4 img:hover {
+    margin-top: 2px!important;
+    position: relative!important;
+}
+@media screen and (max-width: 1029px) {
+    body{
+        height:100%;
+        width:100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        
+    }
+    .logo img.loguinho{
+        width: 41px;
+        position: absolute;
+        top: -14px;
+    }
+    .redes-sociais img.redes{
+        height: 21px;
+    }
+    .redes-sociais img.redes-2 {
+        height: 25px;
+    }
+    .texto-destaque h1 {
+        text-align:center;
+        font-size: 25px;
+    }
+    .texto-destaque p.texto-principal {
+        text-align: center!important;
+        margin: 0 auto;
+        width: 600px;
+        padding:20px;
+        border: 2px solid;
+        border-color: transparent;
+    }
+    .col-3 img {
+        width: 85%;
+    }
+    .col-4 img {
+        padding-top:7px;
+        padding-left: 245px;
+        width: 37px;
+    }
+}
+@media screen and (max-width:978px) {
+    .header-2 {
+        padding-left:0px;
+        width:0px;
+    }
+    .col-100 {
+        margin-top: 54px;
+    }
+    .redes-sociais ul li {
+        padding: 8px;
+        padding-left: 30px!important;
+        padding-top: 3px!important;
+    }
+    img.icone {
+        width: 22px;
+        float: right;
+        cursor: pointer;
+    }
+    .menu {
+        height:0px;
+        width: 100%;
+        top: -9px;
+        position: absolute;
+    }
+    label {
+        padding: 1px;
+        position: fixed;
+        left: 900px;
+        top: 14px;
+        z-index: 1020;
+    }
+    .menu-urls {
+        background-color:rgb(14, 13, 13);
+        border-bottom: rgb(14, 13, 13);
+        height: 141px;
+        top: 0px;
+        position: fixed;
+        z-index: 1020;
+        width:100%;
+        left:200%;
+        transition: all 3s;
+    }
+    #chec:checked ~ .menu-urls {
+        transform: translateX(-200%);
+        /* Faz o menu aparecer e reaparecer */
+    }
+    .menu-urls ul li a {
+        display: block;
+        padding: 6px 15px;
+    }
+    .menu-urls ul li a:hover {
+        background-color: white;
+    }
+    .menu-urls ul {
+        padding:0px!important;
+        background-color:rgb(14, 13, 13);
+        position: absolute;
+        width: 100%;
+    }
+    .menu-principal {
+        height: 54px;
+    } 
+    .logo {
+        width:4%;
+    }
+    .redes-sociais ul li {
+        padding: 17px;
+    }
+    .texto-destaque h1 {
+        text-align:center!important;
+        margin: 0 auto;
+        padding:20px;
+        border: 1px solid;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-size: 21px;
+        color: #2e2e2e
+    }
+    .col-3 h2.esquerda {
+        text-align:left!important;
+        margin: 0 auto;
+        width: 290px;
+        padding:10px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size: 21px;
+    }
+    .col-3 h2.meio {
+        text-align:left!important;
+        margin: 0 auto;
+        width: 290px;
+        padding:10px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size: 21px;
+    }
+    .col-3 h2.direita {
+        text-align:left!important;
+        margin: 0 auto;
+        width: 290px;
+        padding:10px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size: 21px;
+    }
+    .col-3 img{
+        width: 60%;
+        margin-left: -69px;
+    }
+    .texto-destaque p.texto-principal {
+        text-align: center!important;
+        margin: 0 auto;
+        width: 600px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .texto-destaque p.teste {
+        margin-left: 0px;
+        text-align: left!important;
+        width: 239px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .block-end {
+        margin-top: -300px;
+        width: 100%;
+        height: 54px;
+    }
+    .col-4 img {
+        padding-left: 199.9px;
+        width: 38px;
+        padding-top:4px
+    }
+}
+@media screen and (max-width: 916px) {
+    body{
+        background-color: white;
+    }
+    label {
+        padding: 1px;
+        position: fixed;
+        left: 800px;
+        top: 14px;
+        z-index: 1020;
+    }
+    .texto-destaque p:hover {
+        color: #929292;
+    }
+    .texto-destaque h1:hover {
+        color: #2e2e2e;
+    }
+    .texto-destaque h2.esquerda:hover {
+        color: #2e2e2e;
+    }
+    .texto-destaque h2.meio:hover {
+        color: #2e2e2e;
+    }
+    .texto-destaque h2.direita:hover {
+        color: #2e2e2e;
+    }
+    .texto-destaque h1 {
+        text-align:center!important;
+        margin-left: -419px;
+        padding:10px;
+        border: 1px solid;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-size: 21px;
+        color: #2e2e2e;
+    }
+    .texto-destaque p.texto-principal {
+        text-align: left!important;
+        margin-left: 100px;
+        width: 460px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .col-3 img.image1 {
+        width: 50%;
+        margin-left: 180px;
+    }
+    .col-3 img.image3 {
+        width: 50%;
+        margin-left: 180px;
+    }
+    .col-3 h2.esquerda {
+        text-align:left!important;
+        margin-left: 139px;
+        width: 290px;
+        padding:10px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size: 21px;
+    }
+    .col-3 h2.meio {
+        text-align:left!important;
+        margin-left: -178px;
+        margin-top: 1px;
+        width: 290px;
+        padding: 10px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size: 21px;
+    }
+    .col-3 h2.direita {
+        text-align:left!important;
+        margin-left: -500px;
+        margin-top: 0px;
+        width: 290px;
+        padding: 10px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size: 21px;
+    }
+    .texto-destaque p.teste {
+        margin-left: 78px;
+        text-align: left!important;
+        width: 460px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .col-3 p.teste2 {
+        margin-left: -241px;
+        text-align: left!important;
+        width: 460px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .col-3 p.teste3 {
+        margin-left: -561px;
+        text-align: left!important;
+        width: 460px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .col-3 img.image3 {
+        width: 50%;
+        margin-left: -1045px;
+        padding-top: 825px;
+    }
+    .col-3 img.image2 {
+        width: 50%;
+        margin-left: -406px;
+        padding-top: 330px;
+    }
+    .block-end {
+        margin-top: 0px;
+        width: 100%;
+        height: 54px;
+        top: 1030px;
+    }
+}
+@media screen and (max-width:816px) {
+    label {
+        padding: 1px;
+        position: fixed;
+        left: 700px;
+        top: 14px;
+        z-index: 1020;
+    }
+}
+@media screen and (max-width:733px) {
+    label {
+        padding: 1px;
+        position: fixed;
+        left: 600px;
+        top: 14px;
+        z-index: 1020;
+    }
+}
+@media screen and (max-width:606px) {
+    label {
+        padding: 1px;
+        position: fixed;
+        left: 500px;
+        top: 14px;
+        z-index: 1020;
+    }
+}
+@media screen and (max-width:713px) {
+    .col-4 img {
+        padding-left: 145px;
+    }
+}
+@media screen and (max-width: 577px) {
+    label {
+        padding: 1px;
+        position: fixed;
+        left: 450px;
+        top: 14px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        text-align:center!important;
+        margin-left: -414px;
+        padding:10px;
+        border: 1px solid;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-size: 21px;
+        color: #2e2e2e;
+    }
+    .texto-destaque p.texto-principal {
+        text-align: left!important;
+        margin-left: 100px;
+        width: 350px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .texto-destaque p.teste {
+        margin-left: 78px;
+        text-align: left!important;
+        width: 350px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .col-3 p.teste2 {
+        margin-left: -241px;
+        text-align: left!important;
+        width: 350px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .col-3 p.teste3 {
+        margin-left: -561px;
+        text-align: left!important;
+        width: 350px;
+        padding:5px;
+        border: 1px solid;
+        border-color: transparent;
+        font-size:17px;
+    }
+    .col-4 img {
+        padding-left: 104px;
+        width: 38px;
+        padding-top:4px
+    }
+    .block-end {
+        margin-top: 10px;
+        width: 100%;
+        height: 54px;
+    }
+}
+@media screen and (max-width: 499px) {
+    label {
+        padding: 1px;
+        position: fixed;
+        left: 400px;
+        top: 20px;
+        z-index: 1020;
+    }
+    .logo img.loguinho {
+        width: 36px;
+        top: -14px;
+    }
+    .redes-sociais img.redes {
+        height: 17px;
+    }
+    .redes-sociais ul li {
+        padding: 11px;
+        padding-left: 7px!important;
+        padding-top: 3px!important;
+    }
+    .redes-sociais img.redes-2 {
+        height: 22px;
+    }
+    img.icone {
+        width: 17px;
+    }
+    .menu-urls {
+        height: 102px;
+    }
+    .menu-urls ul li a {
+        padding:3px 15px;
+        font-size: 13px;
+    }
+    .texto-destaque h1 {
+        margin-left: -491px;
+        font-size: 13px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 91px;
+        width: 320px;
+        font-size: 12px;
+    }
+    .col-3 img.image1 {
+        width: 110px;
+        margin-left: 180px;
+    }
+    .col-3 {
+        padding-left: 5px;
+        padding-right: 15px;
+        width: 29%;
+        height: 29%;
+        float: left;
+        position: relative;
+    }
+    .col-3 h2.esquerda {
+        margin-left: 164px;
+        font-size: 13px;
+    }
+    .texto-destaque p.teste {
+        font-size: 12px;
+        width: 320px;
+    }
+    .col-3 img.image2 {
+        width: 110px;
+        margin-left: -427px;
+        margin-top: -120px;
+    }
+    .col-3 h2.meio {
+        margin-left: -154px;
+        font-size: 12px;
+    }
+    .col-3 p.teste2 {
+        width: 320px;
+        font-size: 12px;
+        margin-left:-223px; 
+    }
+    .col-3 img.image3 {
+        width: 110px;
+        padding-top: 610px;
+    }
+    .col-3 h2.direita {
+        margin-left: -466px;
+        font-size: 13px;
+    }
+    .col-3 p.teste3 {
+        width: 320px;
+        margin-left: -529;
+        font-size: 12px;
+    }
+    .block-end {
+        top: 700px;
+    }
+}
+@media screen and (max-width: 418px) {
+    label {
+        padding: 1px;
+        left: 350px;
+        top: 20px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        margin-left: -539px;
+        font-size: 14px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 105px;
+        width: 222px;
+        font-size: 13px;
+    }
+    .col-3 img.image1 {
+        width: 110px;
+        margin-left: 130px;
+    }
+    .col-3 h2.esquerda {
+        margin-left: 139px;
+        font-size: 13px;
+    }
+    .texto-destaque p.teste {
+        font-size: 13px;
+        width: 222px;
+        margin-left: 98px;
+    }
+    .col-3 img.image2 {
+        width: 110px;
+        margin-left: -490px;
+        margin-top: -20px;
+    }
+    .col-3 h2.meio {
+        margin-left: -178px;
+        font-size: 14px;
+    }
+    .col-3 p.teste2 {
+        width: 222px;
+        font-size: 13px;
+        margin-left: -223px;
+    }
+    .col-3 img.image3 {
+        width: 110px;
+        padding-top: 765px;
+        margin-left: -1095px;
+    }
+    .col-3 h2.direita {
+        font-size: 14px;
+        margin-left: -496px;
+    }
+    .col-3 p.teste3 {
+        font-size: 13px;
+        width: 222px;
+        margin-left: -534px;
+    }
+    .block-end {
+        top: 900px;
+    }
+    .col-4 img {
+        padding-left: 80px;
+        width: 27px;
+        padding-top: 11px;
+    }
+}
+@media screen and (max-width: 371px ) {
+    label {
+        padding: 1px;
+        left: 300px;
+        top: 20px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        margin-left: -639px;
+        font-size: 13px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 70px;
+        width: 230px;
+        font-size: 12px;
+    }
+}
+@media screen and (width: 375px), (height: 812px) {
+    .logo img.loguinho {
+        width: 36px;
+        top: -10px;
+    }
+    label {
+        padding: 1px;
+        top: 20px;
+        margin-left: -19px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        margin-left: -595px;
+        font-size: 14px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 40px;
+        width: 300px;
+        font-size: 13px;
+    }
+    .col-3 img.image1 {
+        width: 110px;
+        margin-left: 83px;
+    }
+    .col-3 h2.esquerda {
+        margin-left: 109px;
+        font-size: 14px;
+    }
+    .texto-destaque p.teste {
+        font-size: 13px;
+        width: 300px;
+        margin-left: 40px;
+    }
+    .col-3 img.image2 {
+        width: 110px;
+        margin-left: -520px;
+        margin-top: -20px;
+    }
+    .col-3 h2.meio {
+        margin-left: -200px;
+        font-size: 14px;
+    }
+    .col-3 p.teste2 {
+        width: 300px;
+        font-size: 13px;
+        margin-left: -265px;
+    }
+    .col-3 img.image3 {
+        width: 110px;
+        padding-top: 765px;
+        margin-left: -1125px;
+    }
+    .col-3 h2.direita {
+        margin-left: -509px;
+        font-size: 14px;
+    }
+    .col-3 p.teste3 {
+        width: 300px;
+        margin-left: -569px;
+        font-size: 13px;
+    }
+    .block-end {
+        top: 1223px;
+    }
+}
+@media screen and (width: 414px), (height: 736px) {
+    .block-end {
+        top: 1117px;
+    }
+    .logo img.loguinho {
+        width: 36px;
+        top: -10px;
+        left: 20;
+    }    
+    label {
+        padding: 1px;
+        top: 20px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        margin-left: -555px;
+        font-size: 14px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 60px;
+        width: 300px;
+        font-size: 13px;
+    }
+    .col-3 img.image1 {
+        width: 110px;
+        margin-left: 125px;
+    }
+    .col-3 h2.esquerda {
+        margin-left: 128px;
+        font-size: 14px;
+    }
+    .texto-destaque p.teste {
+        font-size: 13px;
+        width: 300px;
+        margin-left: 60px;
+    }
+    .col-3 img.image2 {
+        width: 110px;
+        margin-left: -475px;
+        margin-top: -20px;
+    }
+    .col-3 h2.meio {
+        margin-left: -178px;
+        font-size: 14px;
+    }
+    .col-3 p.teste2 {
+        width: 300px;
+        font-size: 13px;
+        margin-left: -245px;
+    }
+    .col-3 img.image3 {
+        width: 110px;
+        padding-top: 765px;
+        margin-left: -1078px;
+    }
+    .col-3 h2.direita {
+        margin-left: -491px;
+        font-size: 13px;
+    }
+    .col-3 p.teste3 {
+        width: 300px;
+        margin-left: -547px;
+        font-size: 13px;
+    }
+}
+@media screen and (width: 320px), (height: 568px) {
+    .logo img.loguinho {
+        width: 36px;
+        top: -10px;
+    }
+    label {
+        padding: 1px;
+        top: 20px;
+        margin-left: -19px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        margin-left: -645px;
+        font-size: 14px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 40px;
+        width: 240px;
+        font-size: 13px;
+    }
+    .col-3 img.image1 {
+        width: 110px;
+        margin-left: 26px;
+    }
+    .col-3 h2.esquerda {
+        margin-left: 78px;
+        font-size: 14px;
+    }
+    .texto-destaque p.teste {
+        font-size: 13px;
+        width: 240px;
+        margin-left: 40px;
+    }
+    .col-3 img.image2 {
+        width: 110px;
+        margin-left: -581px;
+        margin-top: -20px;
+    }
+    .col-3 h2.meio {
+        margin-left: -235px;
+        font-size: 14px;
+    }
+    .col-3 p.teste2 {
+        width: 240px;
+        font-size: 13px;
+        margin-left: -265px;
+    }
+    .col-3 img.image3 {
+        width: 110px;
+        padding-top: 765px;
+        margin-left: -1195px;
+    }
+    .col-3 h2.direita {
+        margin-left: -540px;
+        font-size: 14px;
+    }
+    .col-3 p.teste3 {
+        width: 240px;
+        margin-left: -569px;
+        font-size: 13px;
+    }
+    .col-4 img {
+        padding-left: 60px;
+        width: 26px;
+        padding-top: 11px;
+    }
+    .block-end {
+        top: 1223px;
+    }
+}
+@media screen and (width: 360px), (height: 640px) {
+    .logo img.loguinho {
+        width: 36px;
+        top: -10px;
+    }
+    label {
+        padding: 1px;
+        top: 20px;
+        margin-left: -19px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        margin-left: -620px;
+        font-size: 14px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 65px;
+        width: 240px;
+        font-size: 13px;
+    }
+    .col-3 img.image1 {
+        width: 110px;
+        margin-left: 45px;
+    }
+    .col-3 h2.esquerda {
+        margin-left: 93px;
+        font-size: 14px;
+    }
+    .texto-destaque p.teste {
+        font-size: 13px;
+        width: 240px;
+        margin-left: 58px;
+    }
+    .col-3 img.image2 {
+        width: 110px;
+        margin-left: -571px;
+        margin-top: -20px;
+    }
+    .col-3 h2.meio {
+        margin-left: -225px;
+        font-size: 14px;
+    }
+    .col-3 p.teste2 {
+        width: 240px;
+        font-size: 13px;
+        margin-left: -246px;
+    }
+    .col-3 img.image3 {
+        width: 110px;
+        padding-top: 765px;
+        margin-left: -1179px;
+    }
+    .col-3 h2.direita {
+        margin-left: -534px;
+        font-size: 14px;
+    }
+    .col-3 p.teste3 {
+        width: 240px;
+        margin-left: -550px;
+        font-size: 13px;
+    }
+    .col-4 img {
+        padding-left: 65px;
+        width: 26px;
+        padding-top: 11px;
+    }
+    .block-end {
+        top: 1223px;
+    }
+}
+@media screen and (width: 280px), (height: 653px) {
+    .logo img.loguinho {
+        width: 36px;
+        top: -10px;
+    }
+    label {
+        padding: 1px;
+        top: 20px;
+        margin-left: -70px;
+        z-index: 1020;
+    }
+    .texto-destaque h1 {
+        margin-left: -690px;
+        font-size: 14px;
+    }
+    .texto-destaque p.texto-principal {
+        margin-left: 37px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .col-3 img.image1 {
+        width: 110px;
+        margin-left: -19px;
+    }
+    .col-3 h2.esquerda {
+        margin-left: 60px;
+        font-size: 14px;
+    }
+    .texto-destaque p.teste {
+        font-size: 13px;
+        width: 200px;
+        margin-left: 32px;
+    }
+    .col-3 img.image2 {
+        width: 110px;
+        margin-left: -611px;
+        margin-top: 40px;
+    }
+    .col-3 h2.meio {
+        margin-left: -255px;
+        font-size: 14px;
+    }
+    .col-3 p.teste2 {
+        width: 200px;
+        font-size: 13px;
+        margin-left: -270px;
+    }
+    .col-3 img.image3 {
+        width: 110px;
+        padding-top: 865px;
+        margin-left: -1219px;
+    }
+    .col-3 h2.direita {
+        margin-left: -555px;
+        font-size: 14px;
+    }
+    .col-3 p.teste3 {
+        width: 200px;
+        margin-left: -572px;
+        font-size: 13px;
+    }
+    .col-4 img {
+        padding-left: 45px;
+        width: 26px;
+        padding-top: 5px;
+    }
+    .block-end {
+        top: 1223px;
+    }
+}
